@@ -1,0 +1,83 @@
+.our_team__heading {
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 42px;
+    margin-left: 695px;
+    margin-top: 94px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 186px;
+    margin-left: 10px;
+}
+
+.our-team__employee {
+    width: 270px;
+    height: 428px;
+    background: #FFFFFF;
+    text-align: center;
+    list-style: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team__employee h4 {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our-team__employee p {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.our-team__employee_icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 34px;
+    margin-top: 10px;
+}
+
+.our-team__media_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+    fill: #AFB1B8;
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        color: #FFFFFF;
+        fill: #FFFFFF;
+        transition: 350ms linear;
+    }
+}

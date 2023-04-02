@@ -1,0 +1,39 @@
+.join_us_heading {
+    position: absolute;
+    margin-left: 531px;
+    margin-top: -38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.join_us {
+    display: flex;
+    gap: 10px;
+    margin-top: -85px;
+    margin-left: 531px;
+    width: 206px;
+    height: 46px;
+}
+
+.join_us_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        transition: 500ms linear;
+    }
+}

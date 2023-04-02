@@ -1,0 +1,42 @@
+.our_customers_heading {
+    position: absolute;
+    width: 201px;
+    height: 42px;
+    left: 701px;
+    top: 94px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.our_customers__icons {
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    height: 184px;
+    margin-top: 186px;
+    margin-left: -10px;
+}
+
+.our_customers__link {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+        border: 1px solid #2196F3;
+        color: #2196F3;
+        transition: 350ms linear;
+    }
+}

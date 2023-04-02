@@ -1,0 +1,27 @@
+.web_studio {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.web_studio_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 111px;
+    margin-left: 177px;
+    gap: 9px;
+    list-style: none;
+}
+
+.web_studio__mail {
+    color: #757575;
+}

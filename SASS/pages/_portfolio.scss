@@ -1,0 +1,173 @@
+.portfolio__buttons {
+    display: block;
+    margin-left: 510px;
+    margin-top: 94px;
+    gap: 8px;
+
+    & button {
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 121px;
+        height: 38px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        border: 1px double #F5F4FA;
+    }
+
+    & button:hover,
+    & button:focus {
+        background-color: #2196F3;
+        color: #FFFFFF;
+        transition: 500ms linear;
+    }
+}
+
+.section__general_page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 1250px;
+    gap: 30px;
+    margin-left: 215px;
+    margin-top: 50px;
+}
+
+.portfolio__images {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+
+    &:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    & h4 {
+        margin-top: 20px;
+        margin-left: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
+    }
+}
+
+.portfolio__images_box {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+
+    &:hover .portfolio__overlay {
+        transform: translateY(-100%);
+        overflow: hidden;
+    }
+}
+
+.portfolio__overlay {
+    position: absolute;
+    width: 370px;
+    height: 297px;
+    letter-spacing: 0.03em;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(0);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    & p {
+        font-family: 'Roboto';
+        width: 322px;
+        height: 140px;
+        margin-top: 65px;
+        margin-left: 24px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+}
+
+.portfolio__our_work {
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 110px;
+    border: 1px solid #EEEEEE;
+
+    & p {
+        margin-top: 4px;
+        margin-left: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
+
+.portfolio__adres {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.portfolio__web_studio {
+    position: absolute;
+    left: 215px;
+    top: 1688px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.portfolio__sign_up {
+    position: absolute;
+    width: 570px;
+    height: 86px;
+    left: 815px;
+    top: 1700px;
+}
+
+.portfolio__sign_up_button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1185px;
+    top: 1723px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    & p {
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+}

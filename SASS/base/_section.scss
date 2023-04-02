@@ -1,0 +1,31 @@
+.section__order_the_service {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+    background-image: url(../images/car_design.jpg);
+}
+
+.section__our_team {
+    position: absolute;
+    width: 1600px;
+    height: 708px;
+    left: 0px;
+    top: 1599px;
+    background: #F5F4FA;
+}
+
+.section__our_customers {
+    position: absolute;
+    top: 2307px;
+    max-width: 1600px;
+    min-height: 372px;
+    border: 1px double white;
+}
+
+.section__portfolio {
+    box-sizing: border-box;
+    width: 1600px;
+    height: 1548px;
+    border: 2px dashed dimgray;
+    border: 1px solid #ECECEC;
+}

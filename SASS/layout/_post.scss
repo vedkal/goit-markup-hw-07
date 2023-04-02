@@ -1,0 +1,93 @@
+.post__lorem-ipsum {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 94px;
+    margin-left: 10px;
+}
+
+.post__lorem-ipsum h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.post__lorem-ipsum p {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.post__icon_svg {
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.post__icon_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.post__heading {
+    position: absolute;
+    width: 360px;
+    height: 42px;
+    left: 624px;
+    top: 1119px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.post__What-we-do {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 290px;
+    margin-left: 10px;
+}
+
+.post__description P {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -74px;
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}

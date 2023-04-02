@@ -1,0 +1,48 @@
+.nav_logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__social-links {
+    display: flex;
+    justify-content: center;
+    width: 259px;
+    height: 48px;
+    margin-left: 453px;
+    padding: 32px;
+    gap: 46px;
+}
+
+.nav_link {
+    width: 42px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+        transition: 350ms linear;
+    }
+}
