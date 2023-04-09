@@ -1,9 +1,8 @@
 .post__lorem-ipsum {
     display: flex;
-    flex-direction: row;
     gap: 30px;
+    margin-left: -40px;
     margin-top: 94px;
-    margin-left: 10px;
 }
 
 .post__lorem-ipsum h5 {
@@ -50,11 +49,6 @@
 }
 
 .post__heading {
-    position: absolute;
-    width: 360px;
-    height: 42px;
-    left: 624px;
-    top: 1119px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -65,12 +59,11 @@
     color: #212121;
 }
 
-.post__What-we-do {
+.post__container {
     display: flex;
-    flex-direction: row;
     gap: 30px;
-    margin-top: 290px;
-    margin-left: 10px;
+    margin-left: -40px;
+    margin-top: 50px;
 }
 
 .post__description P {

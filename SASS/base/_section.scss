@@ -1,8 +1,24 @@
 .section__order_the_service {
+    position: absolute;
     width: 1600px;
     height: 600px;
+    top: 80px;
     background-color: #2F303A;
     background-image: url(../images/car_design.jpg);
+}
+
+.section__lorem-ipsum {
+    position: absolute;
+    width: 1600px;
+    height: 395px;
+    top: 680px;
+}
+
+.section__What-we-do {
+    position: absolute;
+    width: 1600px;
+    height: 566px;
+    top: 1119px;
 }
 
 .section__our_team {
@@ -16,10 +32,9 @@
 
 .section__our_customers {
     position: absolute;
+    width: 1600px;
+    height: 372px;
     top: 2307px;
-    max-width: 1600px;
-    min-height: 372px;
-    border: 1px double white;
 }
 
 .section__portfolio {

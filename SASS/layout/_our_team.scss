@@ -15,12 +15,11 @@
     color: #212121;
 }
 
-.our-team__container {
+.our_team__container {
     display: flex;
-    flex-direction: row;
     gap: 30px;
+    margin-left: -40px;
     margin-top: 186px;
-    margin-left: 10px;
 }
 
 .our-team__employee {
@@ -59,8 +58,7 @@
 .our-team__employee_icons {
     display: flex;
     gap: 10px;
-    margin-left: 34px;
-    margin-top: 10px;
+    margin-left: 32px;
 }
 
 .our-team__media_icon {

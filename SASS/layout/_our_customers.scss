@@ -14,19 +14,16 @@
     color: #212121;
 }
 
-.our_customers__icons {
+.our_customers__container {
     display: flex;
-    flex-direction: row;
-    width: 1170px;
-    height: 184px;
+    gap: 30px;
+    margin-left: -40px;
     margin-top: 186px;
-    margin-left: -10px;
 }
 
 .our_customers__link {
     display: flex;
     flex-direction: row;
-    margin: 16px;
     width: 170px;
     height: 92px;
     color: #AFB1B8;
