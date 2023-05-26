@@ -1,9 +1,7 @@
 .web_studio {
-    position: absolute;
+    position: relative;
     width: 145px;
     height: 31px;
-    left: 215px;
-    top: 60px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -14,14 +12,16 @@
 }
 
 .web_studio_link {
-    display: flex;
-    flex-direction: column;
-    margin-top: 111px;
-    margin-left: 177px;
-    gap: 9px;
+    position: relative;
+    width: 285px;
+    height: 81px;
+    top: 20px;
+    padding: 0;
     list-style: none;
 }
 
 .web_studio__mail {
+    padding: 5px;
+    margin-left: -4px;
     color: #757575;
 }

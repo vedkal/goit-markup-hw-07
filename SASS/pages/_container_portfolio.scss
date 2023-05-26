@@ -1,7 +1,24 @@
-.container__adress_portfolio {
-    margin-top: 0;
-    width: 1600px;
+.section__portfolio {
+    box-sizing: border-box;
+    height: 1548px;
+    border: 2px dashed dimgray;
+    border: 1px solid #ECECEC;
+    padding: 215, 94;
+}
+
+.section__general_page {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1250px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.section__adress_portfolio {
+    position: absolute;
+    padding: 60px;
     height: 252px;
-    background-color: #2F303A;
-    border: 1px solid #2F303A;
+    width: 100%;
+    left: 0px;
+    background: #2F303A;
 }

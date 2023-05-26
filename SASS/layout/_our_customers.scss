@@ -1,9 +1,8 @@
 .our_customers_heading {
-    position: absolute;
+    position: relative;
     width: 201px;
     height: 42px;
-    left: 701px;
-    top: 94px;
+    left: 490px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -11,14 +10,7 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.our_customers__container {
-    display: flex;
-    gap: 30px;
-    margin-left: -40px;
-    margin-top: 186px;
+    color: var(--font-main-color);
 }
 
 .our_customers__link {
@@ -29,11 +21,18 @@
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+}
 
-    &:hover,
-    &:focus {
-        border: 1px solid #2196F3;
-        color: #2196F3;
-        transition: 350ms linear;
-    }
+.our_customers__link svg {
+    width: 106px;
+    height: 61px;
+    margin-left: 33px;
+    margin-top: 13px;
+}
+
+.our_customers__link:hover,
+.our_customers__link:focus {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 350ms linear;
 }

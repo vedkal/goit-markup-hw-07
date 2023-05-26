@@ -1,34 +1,18 @@
-.conteiner__nav {
-    height: 80px;
-}
-
 .container {
-    width: 1170px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
-}
-
-.conteiner__adress {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2679px;
-    background: #2F303A;
-}
-
-.container__portfolio {
-    width: 1600px;
-    height: 1880px;
-    margin: 0;
+    left: 215px;
 }
 
 .conteiner__modal_window {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
+    padding: 40px;
     background-color: #FFFFFF;
-    animation: animate 2000ms;
 }

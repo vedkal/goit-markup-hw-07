@@ -1,46 +1,48 @@
+.section__nav {
+    height: 80px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
 .section__order_the_service {
-    position: absolute;
-    width: 1600px;
     height: 600px;
-    top: 80px;
-    background-color: #2F303A;
+    width: 100%;
     background-image: url(../images/car_design.jpg);
 }
 
 .section__lorem-ipsum {
-    position: absolute;
-    width: 1600px;
-    height: 395px;
-    top: 680px;
+    padding: 94px 0;
+    width: 100%;
+    margin-top: -44px;
 }
 
 .section__What-we-do {
-    position: absolute;
-    width: 1600px;
-    height: 566px;
+    padding: 94px 0;
+    width: 100%;
     top: 1119px;
+    margin-left: -5px;
 }
 
 .section__our_team {
-    position: absolute;
-    width: 1600px;
-    height: 708px;
+    width: 100%;
+    padding: 94px 0;
     left: 0px;
     top: 1599px;
     background: #F5F4FA;
 }
 
 .section__our_customers {
-    position: absolute;
-    width: 1600px;
-    height: 372px;
+    width: 100%;
     top: 2307px;
+    padding: 94px 0;
 }
 
-.section__portfolio {
-    box-sizing: border-box;
-    width: 1600px;
-    height: 1548px;
-    border: 2px dashed dimgray;
-    border: 1px solid #ECECEC;
+.section__adress {
+    position: relative;
+    height: 252px;
+    width: 100%;
+    padding: 60px 0;
+    left: 0px;
+    background: #2F303A;
 }

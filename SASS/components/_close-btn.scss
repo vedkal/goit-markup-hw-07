@@ -1,9 +1,10 @@
 .close-btn {
+    position: absolute;
+    right: 8px;
+    top: 8px;
     display: block;
     width: 30px;
     height: 30px;
-    margin-top: 8px;
-    margin-right: 8px;
     margin-left: auto;
     border-radius: 50%;
     background: #000000;

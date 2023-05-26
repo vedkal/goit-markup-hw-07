@@ -1,8 +1,7 @@
 .nav_logo {
-    position: absolute;
+    position: relative;
     width: 145px;
     height: 31px;
-    left: 215px;
     top: 24px;
     font-family: 'Raleway';
     font-style: normal;
@@ -10,26 +9,22 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
-}
-
-.nav__links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: var(--font-main-color);
 }
 
 .nav__social-links {
     display: flex;
     justify-content: center;
+    position: relative;
     width: 259px;
     height: 48px;
-    margin-left: 453px;
-    padding: 32px;
+    margin-left: 210px;
+    margin-top: 1px;
     gap: 46px;
 }
 
 .nav_link {
+    position: relative;
     width: 42px;
     height: 48px;
     font-family: 'Roboto';
@@ -38,11 +33,12 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--font-main-color);
+    text-decoration: none;
+}
 
-    &:hover,
-    &:focus {
-        color: #2196F3;
-        transition: 350ms linear;
-    }
+.nav_link:hover,
+.nav_link:focus {
+    color: var(--primary-color);
+    transition: 350ms linear;
 }
